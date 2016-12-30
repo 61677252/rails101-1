@@ -7,7 +7,7 @@ def show
   @group = Group.find(params[:id])
 end
 
-def show
+def edit
   @group = Group.find(params[:id])
 end
 
